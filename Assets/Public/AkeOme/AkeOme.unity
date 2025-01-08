@@ -248,7 +248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b520ef607f6197a4fa56437faa26c716, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _akeome: 1
+  _akeOme: 1
   _dotSize: 20
   _spacing: -130
 --- !u!114 &477245651
@@ -320,11 +320,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4762ce0b35353644595bd31c0d2cb823, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textRectTransform: {fileID: 713264689}
-  widthScale: 0.05
-  heightScale: 1
-  size: 5
-  rotation: 90
+  _widthScale: 0.05
+  _heightScale: 1
+  _size: 5
+  _rotation: 90
   _message: "\u304A\u5F8C\u304C\u5B9C\u3057\u3044\u3088\u3046\u3067\u4E4B\u306B\u3066\u304A\u7D42\u3044\u30D3\u30C1\u30B0\u30BD\u4E38"
 --- !u!114 &713264691
 MonoBehaviour:
@@ -600,11 +599,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4762ce0b35353644595bd31c0d2cb823, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textRectTransform: {fileID: 978830889}
-  widthScale: 0.05
-  heightScale: 1
-  size: 5
-  rotation: 0
+  _widthScale: 0.05
+  _heightScale: 1
+  _size: 5
+  _rotation: 0
   _message: "\u3042\u3051\u307E\u3057\u3066\u304A\u3081\u3067\u3068\u3046\u3054\u3056\u3044\u307E\u3059"
 --- !u!114 &978830891
 MonoBehaviour:
@@ -985,11 +983,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56595f5af9dc8004988d8d8c10e97a1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 500
+  _rotationSpeed: 500
   _button: {fileID: 1334821704}
   _resetButton: {fileID: 1636093628}
   _zRotation: -45
-  mouseY: 0
 --- !u!1 &1580215239
 GameObject:
   m_ObjectHideFlags: 0
@@ -1038,7 +1035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b520ef607f6197a4fa56437faa26c716, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _akeome: 1
+  _akeOme: 1
   _dotSize: 20
   _spacing: -127.63
 --- !u!4 &1580215242
